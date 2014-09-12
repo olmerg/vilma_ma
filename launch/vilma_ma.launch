@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+
+
+<group ns="microautobox">
+<param name="udp_port" value="5001"/>
+<param name="ma_ip"  value="192.168.140.4""/>
+<param name="ma_port" value="5001"/>
+<param name="timeout" value="3"/>
+<param name="Ts"    value="0.01"/>
+
+
+</group>
+
+<node pkg="vilma_ma" name="vilma_ma" type="vilma_ma" output="scren"/>
+
+</launch>
+
