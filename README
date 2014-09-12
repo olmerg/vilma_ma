@@ -1,2 +1,6 @@
 vilma_ma
- ROS node to connect to the DSpace  Microautobox 
+ ROS node to connect to the DSpace  Microautobox using UDP communication and the sample of the MA present in Simulink libraries.
+ 
+ It is using the boost library to make asynchronous request with a deadline timer.
+ 
+
